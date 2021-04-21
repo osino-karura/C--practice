@@ -3,7 +3,7 @@
 // xの小数点以下を切り上げて得られる整数を出力してください。
 
 // 制約
-// a, bは整数である。
+// a, bは整数である。//整数だからint型にする
 // 1≤a,b≤100
 
 
@@ -11,7 +11,7 @@
 using namespace std;
 
 int main() {
-  double a, b;
+  int a, b;
   int s;
   cin >> a >> b;
   s = a + b;
