@@ -15,5 +15,5 @@ int main() {
   double g;
   cin >> r; // r = cin
   cin >> g; // g = cin
-  cout << (g * 2) - r << endl;
+  cout << (g ** 2) - r << endl;
 }
