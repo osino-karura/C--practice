@@ -27,8 +27,8 @@ int main() {
     if (average > score.at(i)) {
       cout << average - score.at(i) << endl;
     }
-    /*averageがscore配列の各要素より大きければ、残りは自動的に各要素を固定されたaverageで引くことになるからシンプルに else にして
-    score.at(i) - averageを出力すれば良き。*/
+    /*（反省点）下記、残りは自動的に各要素を固定されたaverageで引くことになるからシンプルに else にして
+   　　 score.at(i) - averageを出力すれば良き。*/
     else if (average < score.at(i)) {
       cout << score.at(i) - average << endl;
     }
